@@ -5,7 +5,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        base: { bg:"#0B0F1A", card:"#11182A", text:"#E6EEF9", mut:"#A7B3C7" },
+        // ⬇️ variables CSS avec support de /<alpha> (ex: bg-base-bg/70)
+        base: {
+          bg:   'rgb(var(--base-bg) / <alpha-value>)',
+          card: 'rgb(var(--base-card) / <alpha-value>)',
+          text: 'rgb(var(--base-text) / <alpha-value>)',
+          mut:  'rgb(var(--base-mut) / <alpha-value>)',
+        },
+        // Tu gardes tes couleurs brand (inchangé)
         brand: { 1:"#22E3A4", 2:"#7C8BFF" }
       },
       boxShadow: { soft: "0 10px 30px rgba(0,0,0,.35)" }
