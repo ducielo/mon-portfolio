@@ -26,7 +26,7 @@ jobs:
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist   # ⚠️ dossier de sortie Vite
+          path: ./dist   # ⚠️ prend tout le dist (y compris /works/ et .nojekyll)
 
   deploy:
     environment:
