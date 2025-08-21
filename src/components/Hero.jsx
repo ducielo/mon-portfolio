@@ -64,9 +64,6 @@ export default function Hero(){
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
       />
-
-
-
         </motion.div>
       </div>
     </section>
