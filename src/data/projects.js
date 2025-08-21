@@ -1,37 +1,49 @@
 // src/data/projects.js
 // Données projets AVEC images (cover + galerie) et slug (identifiant)
+
+const base = import.meta.env.BASE_URL;
+
 export const PROJECTS = [
   {
     slug: "Santé & télé-médécine",
     title: "vivoptim-solutions",
-    desc: "Application web réaliser pour un programme de conseils nutritionnels par les diététiciens",
+    desc: "Application web réalisée pour un programme de conseils nutritionnels par les diététiciens",
     tags: ["Next.js", "Headless", "Animations"],
     type: ["dev"],
-    cover: "/works/cap1.png",
+    cover: `${base}works/cap1.png`,
     gallery: [
-      "/works/cap6.png","/works/cap1.png","/works/cap2.png","/works/cap3.png","/works/cap4.png","/works/Group2.png"
+      `${base}works/cap6.png`,
+      `${base}works/cap1.png`,
+      `${base}works/cap2.png`,
+      `${base}works/cap3.png`,
+      `${base}works/cap4.png`,
+      `${base}works/Group2.png`
     ]
   },
   {
     slug: "Itech",
     title: "UX Design",
-    desc: "Création d'application mobile pour transports de colis",
+    desc: "Création d'application mobile pour transport de colis",
     tags: ["Research", "Testing", "Workshops"],
     type: ["ux"],
-    cover: "/works/Group1.png",
+    cover: `${base}works/Group1.png`,
     gallery: [
-      "./works/Group2.png"
+      `${base}works/Group2.png`
     ]
   },
   {
     slug: "design-tokens",
-    title: "Applcation mobile",
+    title: "Application mobile",
     desc: "Tokens sémantiques, theming clair/sombre, handoff Figma ↔ code.",
     tags: ["Design System", "Figma", "Tokens"],
     type: ["ux","dev"],
-    cover: "/works/ip1.png",
+    cover: `${base}works/ip1.png`,
     gallery: [
-      "/works/ip2.png","/works/ip3.png","/works/ip4.png","/works/ip5.png","/works/ip6.png"
+      `${base}works/ip2.png`,
+      `${base}works/ip3.png`,
+      `${base}works/ip4.png`,
+      `${base}works/ip5.png`,
+      `${base}works/ip6.png`
     ]
   }
 ]
