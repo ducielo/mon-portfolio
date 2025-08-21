@@ -55,15 +55,16 @@ export default function Hero(){
           className="card p-6 flex items-center justify-center"
           aria-hidden="true"
         >
-          <motion.img
-            src="src/assets/imgHeader.png"
-            alt="Illustration développeur full-stack"
-            className="w-80 h-auto rounded-xl shadow-lg object-cover mx-auto" 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-            viewport={{ once: true }}
-          />
+        <motion.img
+        src={`${import.meta.env.BASE_URL}works/header.png`}
+        alt="Illustration développeur full-stack"
+        className="w-80 h-auto rounded-xl shadow-lg object-cover mx-auto" 
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        viewport={{ once: true }}
+      />
+
 
 
         </motion.div>
