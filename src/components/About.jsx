@@ -32,7 +32,7 @@ export default function About() {
           <div>
             <h3 className="font-bold">Cedric Obiang</h3>
             <p className="text-sm text-base-text/80">Développeur Full-Stack × UX Designer</p>
-            <a className="btn btn-ghost mt-2" href="/cv/nom_fichier.pdf" download>
+            <a className="btn btn-ghost mt-2" href="/cv/cd_dev_ux.pdf" download>
               📄 Télécharger le CV
             </a>
           </div>

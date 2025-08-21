@@ -4,16 +4,16 @@ import { motion } from "framer-motion"
 
 const SKILLS = [
   {cat:"Développement", items:[
-    {k:"HTML/CSS (A11Y)", v:95},
-    {k:"JavaScript/TypeScript", v:92},
-    {k:"React/Next.js", v:90},
-    {k:"Node/PostgreSQL", v:88}
+    {k:"HTML / CSS/ tailwindCSS / Bootstrap / (A11Y)", v:95},
+    {k:"JavaScript / TypeScript / Wordpress", v:92},
+    {k:"Reactjs / Next.js / React Native / Nest / Prisma", v:90},
+    {k:"Node / Express / PostgreSQL / Mysql", v:88}
   ]},
   {cat:"UX Design", items:[
-    {k:"Research & Discovery", v:86},
-    {k:"Prototypage", v:90},
-    {k:"Design System", v:92},
-    {k:"Tests & Accessibilité", v:93}
+    {k:"Parcours Utilisateurs / Proto-persona / Persona", v:86},
+    {k:"Brainstorming / Design thinking / Design Spring", v:90},
+    {k:"Design System / Prototypag", v:92},
+    {k:"Tests / Accessibilité", v:93}
   ]}
 ]
 

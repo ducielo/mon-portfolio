@@ -28,8 +28,8 @@ export default function App(){
       </main>
       <footer className="mt-16 border-t border-white/10">
         <div className="container-xl py-8 flex items-center justify-between text-sm text-base-text/80">
-          <span>© {new Date().getFullYear()} — UX × Full‑Stack</span>
-          <span>React 18 • Vite 5 • Tailwind 3 • Framer Motion 11</span>
+          <span>© {new Date().getFullYear()} — UX Designer - WEB MASTER - DEVELOPPEUR FULL STACK </span>
+          <span>bokaprod20162017@gmail.com - poen-vision@outlook.com</span>
         </div>
       </footer>
     </div>
