@@ -23,9 +23,9 @@ export default function Lightbox({ isOpen, images, index, onClose, onPrev, onNex
           initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
           aria-modal="true" role="dialog"
         >
-          <button className="absolute top-4 right-4 btn btn-ghost" onClick={onClose} aria-label="Fermer">✕</button>
-          <button className="absolute left-4 btn btn-ghost" onClick={onPrev} aria-label="Précédente">←</button>
-          <button className="absolute right-14 btn btn-ghost" onClick={onNext} aria-label="Suivante">→</button>
+          <button className="absolute top-4 right-4 btn btn-ghost text-white" onClick={onClose} aria-label="Fermer">✕</button>
+          <button className="absolute left-4 btn btn-ghost text-white" onClick={onPrev} aria-label="Précédente">←</button>
+          <button className="absolute right-14 btn btn-ghost text-white" onClick={onNext} aria-label="Suivante">→</button>
 
           <motion.img
             key={images[index]}
